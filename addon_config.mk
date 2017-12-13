@@ -61,3 +61,6 @@ common:
 	# when parsing the file system looking for libraries exclude this for all or
 	# a specific platform
 	# ADDON_LIBS_EXCLUDE =
+
+linux64:
+	ADDON_CPPFLAGS += -DOPENCV3 -DHAS_INVERTED_TAGS
